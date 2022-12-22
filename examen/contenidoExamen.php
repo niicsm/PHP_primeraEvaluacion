@@ -333,7 +333,7 @@ $sentencia->execute();
 #/ XML, JSON 
 
 
-
+dasdasd
 
 #/ Funciones predeterminadas Strings 
 
