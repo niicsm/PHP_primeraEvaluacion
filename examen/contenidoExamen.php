@@ -334,7 +334,7 @@ $sentencia->execute();
 
 
 dasdasd
-
+dcsdc
 #/ Funciones predeterminadas Strings 
 
 $cadena = "Hola que tal";
