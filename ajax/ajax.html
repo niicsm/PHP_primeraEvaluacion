@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div id="demo">
+        <h1>The XMLHttpRequest Object</h1>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "../cap6/categorias_json.php", true);
+            xhttp.send();
+            
+        }
+        setInterval(loadDoc, 1000);
+    </script>
+</body>
+
+</html>

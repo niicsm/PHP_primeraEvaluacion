@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErroresSubidaFicheros</title>
+</head>
+
+<body>
+
+    <form action="Hoja13.php" method="post" enctype="multipart/form-data">
+    <span>Indique el nombre del directorio donde se ubicar el archivo</span><input type="text" placeholder=" " name="ubi">
+    <br><textarea name="textarea" rows="10" cols="50" placeholder="Breve descripcion del archivo"></textarea>
+    <input type="hidden" name="MAX_FILE_SIZE" value="1000000000" />
+    <input type="file" name="imagen[]" multiple="">
+    <input type="submit" value="Enviar">
+</form>
+</body>
+
+</html>

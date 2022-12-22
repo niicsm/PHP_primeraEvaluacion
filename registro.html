@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0px;
+            margin: 5px;
+        }
+        span{
+            font-size: 25px;
+        }
+    </style>
+    <h1>Registro</h1>
+    <form action="registro.php" method="post">
+        <br><span>Tu nombre: </span><input type="text" name="nombre">
+        <br> <span>Tus apellidos: </span><input type="text" name="apellidos">
+        <br> <span>Tu edad: </span><input type="text" name="edad">
+        <br> <span>Email: </span><input type="text" name="email">
+        <br> <span>Trabaja: </span><input type="radio" value="T" name="radio1">
+         <span>No trabaja: </span><input type="radio" value="NT" name="radio1" checked>
+        <br>  <span>Peso: </span><input type="text" name="peso">
+        <br> <span>URL: </span><input type="text" name="url">
+        <br><br> <span>Usuario: </span><input type="text" name="user">
+        <br> <span>Contraseña: </span><input type="password" name="passw">
+        <br> <span>Repite contraseña: </span><input type="password" name="passw1">
+        <br><input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
